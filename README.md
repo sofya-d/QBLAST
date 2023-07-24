@@ -2,9 +2,9 @@
 ### What does this pipeline do?
 This pipeline aligns input query sequences of genomic features on input genomes and produces tables and plot with query sequences number in genomes.
 ### Output data
-* BLAST output files with default filtering parameters
-* [BED](https://genome.ucsc.edu/FAQ/FAQformat.html) files filtered with all combinations of alignment length and BLAST e-value parameter values (0.01, 1e-15 and 0.75, 0.90, 0.95 respectively)
-* Summary [TSV](https://en.wikipedia.org/wiki/Tab-separated_values) tables for each combination of parameters where rows are query sequences, columns are scaffolds/contigs, and values in cells are number of specific query sequence in specific scaffold/contig.
+* BLAST output files with default filtering parameters values
+* [BED](https://genome.ucsc.edu/FAQ/FAQformat.html) files filtered with all combinations of alignment length and BLAST e-value parameters values (0.01, 1e-15 and 0.75, 0.90, 0.95 respectively)
+* Summary [TSV](https://en.wikipedia.org/wiki/Tab-separated_values) tables for each combination of parameters values where rows are query sequences, columns are scaffolds/contigs, and values in cells are number of specific query sequence in specific scaffold/contig.
 * Heat map plot in [SVG](https://en.wikipedia.org/wiki/SVG) format were rows are input genomes, columns are input query sequences, and values in cells are number of specific query sequence in whoe genome.
 ### Prerequisites
 * Unix OS<br>
