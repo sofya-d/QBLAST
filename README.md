@@ -26,7 +26,7 @@ This pipeline aligns input query sequences of genomic features on input genomes 
 ### Installation
 Download and inflate archive with pipeline via GitHub GUI or if you have Git installed paste the following command in shell:
 ```shell
-git clone https://github.com/sofya-d/QBLAST.git
+git clone https://github.com/sofya-d/QBLAST
 ```
 ### Input
 1. Path to directory with genome [FASTA](https://www.ncbi.nlm.nih.gov/genbank/fastaformat/) files. Files must have '.fasta' extension
